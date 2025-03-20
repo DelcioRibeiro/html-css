@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Imagem</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Testando imageens de varios tamanhos</h1>
+    <p>Esta é um sequencia de imagens de varios tamanhos, para navegadores diferente e dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 850px)" srcset="imagens/foto-m.png">
+    <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+</body>
+</html>

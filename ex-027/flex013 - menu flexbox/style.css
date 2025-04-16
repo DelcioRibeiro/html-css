@@ -18,7 +18,6 @@ header {
     background-color: gray;
     color: white;
     padding: 10px;
-
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -26,13 +25,11 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.541);
 }
 
 header > nav {
-    border: 1px dotted black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -49,7 +46,7 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    background-color: white;
+    background-color: lightgray;
     color: black;
     transition: background-color .5;
 }

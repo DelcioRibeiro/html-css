@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse ;
+            width: 600px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col.cnomes {
+            background-color: lightgrey;
+        }
+
+        col.cidade {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnomes">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>
+            <tr>
+                <th>Nomes</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </caption>
+        <tbody>
+            <tr>
+                <td>Maria Clara</td>
+                <td>Feminnino</td>
+                <td>25</td>
+                <td>Enfermeira</td>
+            </tr>
+            <tr>
+                <td>Bernardo</td>
+                <td>Masculino</td>
+                <td>21</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Ana Cecilia</td>
+                <td>Feminino</td>
+                <td>18</td>
+                <td>Estagiaria</td>
+            </tr>
+            <tr>
+                <td>Matheus</td>
+                <td>Masculino</td>
+                <td>22</td>
+                <td>Programador</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
